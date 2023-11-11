@@ -1,4 +1,6 @@
-#Author : Heapbytes <Gourav> (https://github.com/heapbytes)
+# Inspired by heatbytes-zsh.theme
+# it seems like ippsec's bash theme
+
 
 PROMPT='
 %F{green}┌─[%f%F{blue}eu-mod-2%f%F{green}]-[%f%n%F{yellow}@%f%F{blue}%m%f%F{green}]-[%f%F{yellow}📁 %~%f%F{green}]-[%f$(get_ip_address)%F{green}]%f
