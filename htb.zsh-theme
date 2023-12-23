@@ -3,7 +3,7 @@
 
 
 PROMPT='
-%F{green}┌─[%f%F{blue}eu-mod-2%f%F{green}]-[%f%n%F{yellow}@%f%F{blue}%m%f%F{green}]-[%f%F{yellow}📁 %~%f%F{green}]-[%f$(get_ip_address)%F{green}]%f
+%F{green}┌─[%f%F{blue}eu-mod-2%f%F{green}]-[%f%n%F{yellow}@%f%F{blue}%m%f%F{green}]-[%f%F{yellow} %~%f%F{green}]-[%f$(get_ip_address)%F{green}]%f
 %F{green}└─━ [%f%F{yellow}*%f%F{green}]%f%F{yellow}$(check_root)%f '
 
 RPROMPT='[%F{red}%?%f][git:%F{yellow}$(parse_git_branch)%f]'
